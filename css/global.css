@@ -22,7 +22,7 @@ main {
   font-size: 0.6em;
   background-color: var(--base04);
   min-height: 100%;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     margin: 0 0 0 0;
     font-size: 0.3em;
   }
@@ -47,4 +47,27 @@ main > ul {
   flex: initial;
   max-width: fit-content;
   margin-top: 4em;
+}
+
+#color {
+  display: flex;
+  flex-direction: column;
+}
+
+#color > span {
+  height: 0.5em;
+  width: 100%;
+  flex: auto;
+}
+
+#blueblock {
+  background-color: var(--base0D);
+}
+
+#yellowblock {
+  background-color: var(--base0A);
+}
+
+#redblock {
+  background-color: var(--base08);
 }
