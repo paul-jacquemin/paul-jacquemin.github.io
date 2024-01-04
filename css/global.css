@@ -1,6 +1,6 @@
 @import "colorscheme.css";
 
- @font-face { font-family: DaddyTimeMono; src: url('../fonts/DaddyTimeMono.otf'); } 
+ @font-face { font-family: DaddyTimeMono; src: url('./fonts/DaddyTimeMono.otf'); } 
 
 html {
   height: 100vh
