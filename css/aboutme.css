@@ -1,7 +1,7 @@
 @import "global.css";
 
 #photo {
-  align-content: baseline;
+  align-content: center;
   justify-content: center;
   display: flex;
   padding-top: 3em;
@@ -9,7 +9,16 @@
 
 #photo > pre {
   font-family: monospace;
-  font-size: 0.5em;
+  font-size: 0.35vw;
+  margin-bottom: 3em;
+  color: var(--base02);
+  border: 1px solid var(--base03)
+}
+
+.color {
+  width: 100%;
+  height: 2vh;
+  align-self: center;
 }
 
 #desc {
@@ -18,7 +27,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
+  margin-bottom: 3em;
 }
 
 #desc > p {
