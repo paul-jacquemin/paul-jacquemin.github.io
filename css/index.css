@@ -5,8 +5,11 @@
   flex-direction: column;
   justify-content: space-around;
   list-style-type: none;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   margin-top: 10vh;
+  @media screen and (max-width: 1000px) {
+    font-size: 4vw;
+  }
 }
 
 #links > pre {
@@ -17,6 +20,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  
 }
 
 
