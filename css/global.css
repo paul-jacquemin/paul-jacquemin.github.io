@@ -20,7 +20,7 @@ body {
 
 main {
   margin: 0 20% 0 20%;
-  font-size: 0.6em;
+  font-size: 0.8vw;
   background-color: var(--base04);
   min-height: 100%;
   @media screen and (max-width: 1000px) {
@@ -61,7 +61,7 @@ pre {
 }
 
 .color > span {
-  height: 0.5em;
+  height: 0.7vh;
   width: 100%;
   flex: auto;
 }
@@ -76,4 +76,14 @@ pre {
 
 .redblock {
   background-color: var(--base08);
+}
+
+a {
+  text-decoration: none;
+  color: var(--base02);
+  height: 100%;
+}
+
+a:hover {
+  color: var(--base07);
 }
