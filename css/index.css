@@ -1,2 +1,30 @@
 @import "global.css";
 
+#links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 2em;
+}
+
+#links > div {
+  color: var(--base02);
+  font-family: DaddyTimeMono;
+  flex: auto;
+  width: 100%;
+  text-align: center;
+  max-height: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+#links > div > pre > a {
+  text-decoration: none;
+  color: var(--base02);
+  height: 100%;
+}
+
+#links > div > pre > a:hover {
+  color: var(--base0C);
+}
+
