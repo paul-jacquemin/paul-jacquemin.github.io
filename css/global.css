@@ -37,7 +37,7 @@ main > ul {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-bottom: 1em;
+  color: var(--base02);
 }
 
 pre {
@@ -45,7 +45,6 @@ pre {
 }
 
 #ascii-title > pre {
-  color: var(--base02);
   max-width: 100%;
   margin: 0;
   padding: 0;

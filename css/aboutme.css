@@ -28,6 +28,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 3em;
+  color: var(--base01);
 }
 
 #desc > p {
