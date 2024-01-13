@@ -1,0 +1,20 @@
+@import "global.css";
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  background-color: var(--base01);
+  color: var(--base04);
+  font-size: 0.9vw;
+  margin: 1vw;
+  padding: 0.6vw;
+}
+
+h3 {
+  color: var(--base0C);
+  font-size: 1vw;
+}
+

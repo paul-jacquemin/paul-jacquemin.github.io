@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/projects.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <a href="../index.html"> < Retour </a>
+      <div id="ascii-title">
+        <pre>
+ _____ ______   _______   ________           ________  ________  ________        ___  _______  _________  ________      
+|\   _ \  _   \|\  ___ \ |\   ____\         |\   __  \|\   __  \|\   __  \      |\  \|\  ___ \|\___   ___\\   ____\     
+\ \  \\\__\ \  \ \   __/|\ \  \___|_        \ \  \|\  \ \  \|\  \ \  \|\  \     \ \  \ \   __/\|___ \  \_\ \  \___|_    
+ \ \  \\|__| \  \ \  \_|/_\ \_____  \        \ \   ____\ \   _  _\ \  \\\  \  __ \ \  \ \  \_|/__  \ \  \ \ \_____  \   
+  \ \  \    \ \  \ \  \_|\ \|____|\  \        \ \  \___|\ \  \\  \\ \  \\\  \|\  \\_\  \ \  \_|\ \  \ \  \ \|____|\  \  
+   \ \__\    \ \__\ \_______\____\_\  \        \ \__\    \ \__\\ _\\ \_______\ \________\ \_______\  \ \__\  ____\_\  \ 
+    \|__|     \|__|\|_______|\_________\        \|__|     \|__|\|__|\|_______|\|________|\|_______|   \|__| |\_________\
+                            \|_________|                                                                    \|_________|
+        </pre>
+      </div>
+      <div class="color">
+        <span class="redblock"></span>
+        <span class="yellowblock"></span>
+        <span class="blueblock"></span>
+      </div>
+      <div id="projects">
+      <article>
+        <h3>SecureWin</h3>
+        <div>
+          <p>
+              SecureWin est une suite logicielle destinée à organiser des <a class="coloredLink" href="https://fr.wikipedia.org/wiki/Ench%C3%A8re_de_Vickrey" target="_blank">enchères de Vickrey</a> et à pouvoir y participer en tant que vendeur et en tant 
+              qu'enchérisseur.
+          </p>
+          <p>
+              Développé avec une équipe de 5 personnes à l'IUT, il a été géré en 
+              gestion agile (type SCRUM) et s'est déroulé sur 4 mois.
+          </p>
+          <p>
+              Mon équipe et moi avons dû mettre en place des sockets sécurisées en 
+              SSL pour établir des communications entre 3 types d'acteurs : les
+              enchérisseurs, les vendeurs ainsi qu'une autorité de gestion.
+          </p>
+        </div>
+      </article>
+      <article>
+          <h3>NAS avec un Raspberry Pi</h3>
+          <div>
+            <p>
+              Un NAS, ou Network Attached Storage (stockage attaché au réseau) est un serveur de stockage accessible depuis plusieurs machines, généralement dans un réseau local, typiquement à des fins d'archivage ou de sauvegarde. 
+            </p>
+            <p>
+              Bien que des solutions prêtes à l'emploi existent, j'ai décidé de mettre en place ma propre architecture à l'aide d'un Raspberry Pi (un sorte de nano ordinateur intégré sur un seul carte) fonctionnant sous Debian.
+            </p>
+            <p>
+              J'ai crée un système de redondance de données RAID-0 que j'ai ouvert au réseau en sftp, puis j'ai écrit un programme de gestion automatique de sauvegardes périodiques.
+            </p>
+          </div>
+      </article>
+      </div>
+    </main>
+  
+  </body>
+</html>
