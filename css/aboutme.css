@@ -29,6 +29,8 @@
   align-items: center;
   margin-bottom: 3em;
   color: var(--base01);
+  margin-bottom: 0;
+  padding-bottom: 3vh;
 }
 
 #desc > p {
